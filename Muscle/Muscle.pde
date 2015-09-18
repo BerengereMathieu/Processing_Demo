@@ -16,9 +16,9 @@ class Element {
   void create_seed() {
     off1=random(10);
     off2=random(10);
-    hue=round(random(360*3)%360);
+    hue=round(random(90,150)%360);
     sat=90;
-    value=90;
+    value=50;
     x_top1=random(width*0.1,width*0.5);
     x_bottom1=random(width);
     end=round(random(100,250));
